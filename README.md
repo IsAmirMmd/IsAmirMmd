@@ -1,15 +1,15 @@
-### Hi there 👋
-
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
-<div id="badges" align="center" >
-<!--   <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-  <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/> -->
+<div style="display:flex;">
+<h1>
+Hi there 👋
+</h1>
   <img src="https://komarev.com/ghpvc/?username=IsAmirMmd&style=flat-square&color=blue" alt=""/>
 </div>
+</div>
+<div id="header" align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"/>
+</div>
 
+---
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
@@ -26,8 +26,8 @@
 - 🌱 I’m currently learning Front-End
 - 💬 Ask me about : !hing
 - 📫 How to reach me: " "
-- 😄 Pronouns: null
-- ⚡ Fun fact: fil ha won't fly
+- 😄 Pronouns: null;
+- ⚡ Fun fact: fil won't fly
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=IsAmirMmd&theme=dark&background=000000)](https://git.io/streak-stats)
 
