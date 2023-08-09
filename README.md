@@ -22,9 +22,14 @@ Hi there 👋
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="NPM" **alt="NPM" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="mysql" **alt="mysql" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/wordpress/wordpress-original.svg" title="mysql" **alt="wordpress" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/wordpress/wordpress-original.svg" title="wordpress" **alt="wordpress" width="40" height="40"/>
 </div>
 
+<br />**
+<a href="https://github.com/IsAmirMmd/wordpress-websites" title="wordpress-repo">
+   check out my wordpress repo for another projects ->
+</a>**<br />
+     
 - 🔭 I’m currently working on simple web developing
 - 🌱 I’m currently learning Front-End
 - 💬 Ask me about : !hing
