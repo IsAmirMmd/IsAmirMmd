@@ -1,31 +1,10 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { merge } = require("webpack-merge");
 
-module.exports = {
-  mode: "development",
-  entry: path.resolve(__dirname, "..", "./src/index.js"),
-  output: {
-    path: path.resolve(__dirname, "..", "./build"),
-  },
-  module: {
-    rules: [
-      {
-        test: /\.?js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-         
-        },
-      },
-      {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
-      },
-    ],
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, "..", "./src/index.html"),
-    }),
-  ],
+const commonConfig = require("./webpack.common.js");
+
+module.exports = (envVars) => {
+  const { env } = envVars;
+  const envConfig = require(`./webpack.${env}.js`);
+  const config = merge(commonConfig, envConfig);
+  return config;
 };
