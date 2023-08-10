@@ -3,6 +3,11 @@ import ReactDOM from "react-dom";
 import "./style.css";
 
 ReactDOM.render(
-  <h1 className="text">Hello World - {process.env.NODE_ENV}</h1>,
+  <div>
+    <h1 className="text">
+      Hello World - {process.env.NODE_ENV}
+      <p>{process.env.NAME}</p>
+    </h1>
+  </div>,
   document.getElementById("root")
 );
