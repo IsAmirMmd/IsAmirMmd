@@ -30,11 +30,10 @@ Hi there 👋
    check out my wordpress repo for another projects ->
 </a>**<br />
      
-- 🔭 I’m currently working on simple web developing
-- 🌱 I’m currently learning Front-End
-- 💬 Ask me about : !hing
+- 🔭 I’m currently working on React.js
+- 🌱 I’m currently learning TypeScript & Next.js
+- 💬 Ask me about : ! anything
 - 📫 How to reach me: " "
-- 😄 Pronouns: null;
 - ⚡ Fun fact: fil won't fly
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=IsAmirMmd&theme=dark&background=000000)](https://git.io/streak-stats)
