@@ -16,7 +16,7 @@ Hi there 👋
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
-  [![My Skills](https://skillicons.dev/icons?i=java,react,next,regex,nodejs,figma,html,css,js,github,git,mysql,wordpress,materialui,mongodb)](https://isamirmmd.ir)
+  <img src="https://skillicons.dev/icons?i=java,react,next,regex,nodejs,figma,html,css,js,github,git,mysql,wordpress,materialui,mongodb" />
 </div>
 
 <br />**
