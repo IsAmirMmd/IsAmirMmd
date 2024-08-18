@@ -16,7 +16,7 @@ Hi there 👋
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
-  <img src="https://skillicons.dev/icons?i=java,react,next,regex,nodejs,figma,html,css,js,github,git,mysql,wordpress,materialui,mongodb,jest&perline=8" /><br />
+  <img src="https://skillicons.dev/icons?i=java,react,next,regex,nodejs,ts,figma,html,css,js,github,git,mysql,wordpress,materialui,mongodb,jest&perline=9" /><br />
   <div style="display : flex;align-items:center">
   Telegram Bots And Telegram Mini Apps Too
   <img src="https://skillicons.dev/icons?i=bots" />
