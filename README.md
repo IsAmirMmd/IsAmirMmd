@@ -1,37 +1,9 @@
-<div style="display:flex;">
-<h1>
-Salam Be Hame 👋🏼 ("Hi EveryOne 👋🏼" in Persian)
-</h1>
-  <img src="https://komarev.com/ghpvc/?username=IsAmirMmd&style=flat-square&color=blue" alt=""/>
-</div>
+<!-- Bento tiles: drawn in bento/tiles.html, rendered to assets/bento/ by `node bento/build.mjs`.
+     Each row's widths add up to 1000px of design, written here as percentages. -->
+<p align="center"><img src="assets/bento/hero.png" width="63.9%" align="top" alt="Salam! I'm Amirmohammad Lotfipour, a Front-End developer building websites, dashboards, Telegram Mini Apps and bots with Next.js, React and TypeScript."/><a href="https://nimbyte.ir"><img src="assets/bento/bitty.png" width="35.9%" align="top" alt="Bitty, nimbyte's mascot"/></a><br/><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/now-dark.png"/><img src="assets/bento/now.png" width="33.9%" align="top" alt="Now: Mid-level Front-End at a private company, remote, US, since 2024"/></picture><a href="https://nimbyte.ir"><img src="assets/bento/nimbyte.png" width="31.9%" align="top" alt="نیم‌بایت (nimbyte.ir), my studio: websites, Mini Apps, Telegram bots and animated stickers"/></a><img src="assets/bento/stack.png" width="33.9%" align="top" alt="Stack: TypeScript, React, Next.js, Tailwind CSS, Node.js, D3.js, Highcharts, GSAP, PostgreSQL, MongoDB, grammY, Claude Code"/><br/><a href="https://melting-bear.netlify.app/"><img src="assets/bento/work-bear.png" width="33.3%" align="top" alt="Melting Bear, a Web3 pixel game"/></a><a href="https://t.me/hesabdarInlinebot"><img src="assets/bento/work-hesabdar.png" width="33.2%" align="top" alt="Hesabdar, an inline Telegram bot"/></a><a href="https://attend.nimbyte.ir"><img src="assets/bento/work-attend.png" width="33.2%" align="top" alt="Attendance system with an AI assistant"/></a><br/><img src="assets/bento/experience.png" width="61.9%" align="top" alt="Experience: Front-End Mid-level at a private company (2024–now), Front-End Junior at 123 Health App (2023–2024), Front-End freelance at Melting Bears, WordPress instructor at Babol University of Medical Sciences (Winter 2023)"/><img src="assets/bento/education.png" width="37.9%" align="top" alt="Education: B.Sc. Computer Engineering, Babol Noshirvani University of Technology, since 2022; TA for Web Programming"/><br/><a href="https://t.me/isAmirMmd"><img src="assets/bento/c-telegram.png" width="19.9%" align="top" alt="Telegram @isAmirMmd"/></a><a href="https://t.me/nimByte"><img src="assets/bento/c-channel.png" width="19.9%" align="top" alt="Telegram channel @nimByte"/></a><a href="https://www.instagram.com/nimbyte.ir/"><img src="assets/bento/c-instagram.png" width="19.9%" align="top" alt="Instagram @nimbyte.ir"/></a><a href="https://linkedin.com/in/isamirmmd"><img src="assets/bento/c-linkedin.png" width="19.9%" align="top" alt="LinkedIn in/isamirmmd"/></a><a href="mailto:amirfanweb@gmail.com"><img src="assets/bento/c-email.png" width="19.9%" align="top" alt="Email amirfanweb@gmail.com"/></a></p>
 
-</div>
-<div id="header" align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"/>
-</div>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=IsAmirMmd&show_icons=true&hide_border=true&border_radius=24&bg_color=fffdf9&title_color=20211f&text_color=5c5650&icon_color=fa604e&ring_color=fa604e" width="49%" align="top" alt="GitHub stats"/> <img src="https://streak-stats.demolab.com?user=IsAmirMmd&hide_border=true&border_radius=24&background=FFFDF9&ring=FA604E&fire=FA604E&currStreakNum=20211F&sideNums=20211F&currStreakLabel=20211F&sideLabels=5C5650&dates=5C5650&stroke=EBE3D6" width="49%" align="top" alt="GitHub streak"/></p>
 
-- 🔭 I’m currently working on Next.js by TypeScript
-- 🌱 I’m currently learning GSAP and web3 connection
-- 💬 Ask me about : ! anything
-- 📫 How to reach me: " amirfanweb@gmail.com "
-- ⚡ Fun fact: fil won't fly
----
+<p align="center">More work on <a href="https://nimbyte.ir/portfolio">nimbyte.ir/portfolio</a> · WordPress sites in <a href="https://github.com/IsAmirMmd/wordpress-websites">wordpress-websites</a></p>
 
-### :hammer_and_wrench: Languages and Tools :
-<div>
-  <img src="https://skillicons.dev/icons?i=java,react,next,regex,nodejs,ts,figma,html,css,js,github,git,mysql,wordpress,materialui,mongodb,jest&perline=9" /><br />
-  <div style="display : flex;align-items:center">
-  Telegram Bots And Telegram Mini Apps Too
-  <img src="https://skillicons.dev/icons?i=bots" />
-  </div>
-</div>
-
-<br />**
-<a href="https://github.com/IsAmirMmd/wordpress-websites" title="wordpress-repo">
-   check out my wordpress repo for another projects ->
-</a>**<br />
-     
-### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=IsAmirMmd&theme=dark&background=000000)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IsAmirMmd&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center"><img src="https://komarev.com/ghpvc/?username=IsAmirMmd&style=flat-square&color=fa604e&label=profile+views" alt="Profile views"/></p>

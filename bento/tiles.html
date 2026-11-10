@@ -1,0 +1,151 @@
+<!doctype html>
+<!-- The profile README's bento tiles. Each .wrap is one PNG: build.mjs screenshots it with its
+     8px transparent margin, so tiles laid side by side in the README leave a 16px gap. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: Vazirmatn; src: url(src/Vazirmatn-Variable.woff2); font-weight: 100 900; }
+@font-face { font-family: JBM; src: url(src/JetBrainsMono-Regular.ttf); font-weight: 400; }
+@font-face { font-family: JBM; src: url(src/JetBrainsMono-ExtraBold.ttf); font-weight: 800; }
+:root {
+  --ink: #20211f; --muted: #5c5650; --cream: #f4efe7; --sand: #ebe3d6; --paper: #fffdf9;
+  --coral: #fa604e; --coral-ink: #9f3a2b; --coral-soft: #fbdcd4; --green-soft: #dcebd9;
+  --blue-soft: #dfe6f7;
+}
+* { box-sizing: border-box; margin: 0; }
+body { background: transparent; font-family: Vazirmatn, sans-serif; color: var(--ink); padding: 20px; }
+.wrap { padding: 8px; margin-bottom: 20px; }
+.tile { width: 100%; height: 100%; border-radius: 24px; padding: 26px 28px; position: relative;
+  display: flex; flex-direction: column; overflow: hidden; }
+.paper { background: var(--paper); } .sand { background: var(--sand); }
+.coral { background: var(--coral); } .coral-soft { background: var(--coral-soft); }
+.blue { background: var(--blue-soft); } .green { background: var(--green-soft); }
+.ink { background: var(--ink); color: var(--cream); }
+.ink.dark { box-shadow: inset 0 0 0 1.5px rgba(244, 239, 231, .16); }
+.mono { font-family: JBM, monospace; }
+.label { font-family: JBM, monospace; font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.label i { width: 8px; height: 8px; border-radius: 2px; background: var(--coral); display: inline-block; }
+.ink .label { color: rgba(244, 239, 231, .64); }
+h1 { font-size: 46px; line-height: 1.15; font-weight: 900; letter-spacing: -.5px; }
+h2 { font-size: 25px; line-height: 1.3; font-weight: 800; }
+h3 { font-size: 19px; line-height: 1.35; font-weight: 700; }
+.lead { font-size: 19px; line-height: 1.6; font-weight: 500; color: var(--muted); }
+.small { font-size: 15px; line-height: 1.55; color: var(--muted); }
+.ink .small { color: rgba(244, 239, 231, .72); }
+.fa { font-family: Vazirmatn; direction: rtl; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 12px; background: var(--paper); }
+.tight { gap: 6px; } .tight .chip { font-size: 13px; padding: 4px 10px; }
+.chip.sand { background: var(--sand); }
+.grow { flex: 1; }
+.row { display: flex; gap: 14px; align-items: baseline; }
+.when { font-family: JBM, monospace; font-size: 13px; color: var(--muted); width: 104px; flex: none; }
+.arrow { position: absolute; top: 22px; right: 24px; width: 36px; height: 36px; border-radius: 12px;
+  background: var(--sand); display: grid; place-items: center; font-family: JBM; font-weight: 800; font-size: 18px; }
+.coral .arrow { background: rgba(32, 33, 31, .12); }
+.raised { box-shadow: 0 1px 2px rgba(32, 33, 31, .05), 0 3px 6px rgba(32, 33, 31, .05); }
+.shot { width: 100%; aspect-ratio: 1200 / 560; object-fit: cover; object-position: center; border-radius: 16px; display: block; }
+</style>
+</head>
+<body>
+
+<div class="wrap" id="hero" style="width:640px;height:330px"><div class="tile paper">
+  <div class="label"><i></i>github.com/IsAmirMmd</div>
+  <div class="grow"></div>
+  <h1>Salam! I'm Amirmohammad<br>Lotfipour.</h1>
+  <p class="lead" style="margin-top:12px">Front-End developer. I build websites, dashboards, Telegram Mini Apps and bots with Next.js, React and TypeScript.</p>
+  <div class="chips" style="margin-top:18px">
+    <span class="chip sand">Remote since 2023</span>
+    <span class="chip sand">Coding since 7th grade</span>
+    <span class="chip sand">Builds with Claude Code</span>
+  </div>
+</div></div>
+
+<div class="wrap" id="bitty" style="width:360px;height:330px"><div class="tile coral-soft" style="align-items:center">
+  <img src="src/bitty.svg" style="height:228px;margin-top:4px">
+  <div class="grow"></div>
+  <p class="small" style="color:var(--ink)">Meet Bitty, <span class="mono">nimbyte</span>'s mascot</p>
+</div></div>
+
+<div class="wrap" id="now" style="width:340px;height:250px"><div class="tile ink">
+  <div class="label"><i></i>Now</div>
+  <h2 style="margin-top:14px">Mid-level Front-End</h2>
+  <p class="small" style="margin-top:2px">Private Company · remote · 2024–now</p>
+  <div class="grow"></div>
+  <p class="small">Big data into D3.js and Highcharts reports, with the team's workflow on Claude Code agents.</p>
+</div></div>
+
+<div class="wrap" id="nimbyte" style="width:320px;height:250px"><div class="tile coral raised">
+  <div class="arrow">↗</div>
+  <div class="label" style="color:var(--ink)">my studio</div>
+  <div class="fa" style="font-size:54px;font-weight:900;line-height:1.3;margin-top:6px;text-align:left">نیم‌بایت</div>
+  <div class="mono" style="font-size:17px;font-weight:800">nimbyte.ir</div>
+  <div class="grow"></div>
+  <p class="small" style="color:var(--ink)">Websites, Mini Apps, Telegram bots and animated stickers.</p>
+</div></div>
+
+<div class="wrap" id="stack" style="width:340px;height:250px"><div class="tile sand">
+  <div class="label"><i></i>Stack</div>
+  <div class="grow"></div>
+  <div class="chips tight">
+    <span class="chip">TypeScript</span><span class="chip">React</span><span class="chip">Next.js</span>
+    <span class="chip">Tailwind CSS</span><span class="chip">Node.js</span><span class="chip">D3.js</span>
+    <span class="chip">Highcharts</span><span class="chip">GSAP</span><span class="chip">PostgreSQL</span>
+    <span class="chip">MongoDB</span><span class="chip">grammY</span><span class="chip">Claude Code</span>
+  </div>
+</div></div>
+
+<div class="wrap" id="work-bear" style="width:334px;height:262px"><div class="tile paper raised" style="padding:12px 12px 18px">
+  <img class="shot" src="src/melting-bear-cover.png">
+  <div style="padding:14px 8px 0"><h3>Melting Bear</h3><p class="small">Web3 pixel game · Next.js, TypeScript</p></div>
+</div></div>
+
+<div class="wrap" id="work-hesabdar" style="width:333px;height:262px"><div class="tile paper raised" style="padding:12px 12px 18px">
+  <img class="shot" src="src/hesabdar-cover.png">
+  <div style="padding:14px 8px 0"><h3>Hesabdar</h3><p class="small">Inline Telegram bot: calculator and currency</p></div>
+</div></div>
+
+<div class="wrap" id="work-attend" style="width:333px;height:262px"><div class="tile paper raised" style="padding:12px 12px 18px">
+  <img class="shot" src="src/attendance-system.png">
+  <div style="padding:14px 8px 0"><h3>Attendance system</h3><p class="small">Admin panel with an AI assistant</p></div>
+</div></div>
+
+<div class="wrap" id="experience" style="width:620px;height:260px"><div class="tile paper">
+  <div class="label"><i></i>Experience</div>
+  <div class="grow"></div>
+  <div style="display:grid;gap:12px">
+    <div class="row"><span class="when">2024–now</span><span><b>Front-End, Mid-level</b> <span class="small">· Private Company, remote</span></span></div>
+    <div class="row"><span class="when">2023–2024</span><span><b>Front-End, Junior</b> <span class="small">· 123 Health App, remote</span></span></div>
+    <div class="row"><span class="when">Freelance</span><span><b>Front-End</b> <span class="small">· Melting Bears, Tehran</span></span></div>
+    <div class="row"><span class="when">Winter 2023</span><span><b>WordPress instructor</b> <span class="small">· Babol Univ. of Medical Sciences</span></span></div>
+  </div>
+</div></div>
+
+<div class="wrap" id="education" style="width:380px;height:260px"><div class="tile blue">
+  <div class="label"><i></i>Education</div>
+  <div class="grow"></div>
+  <h3>B.Sc. Computer Engineering</h3>
+  <p class="small" style="margin-top:4px">Babol Noshirvani University of Technology, since 2022</p>
+  <div class="chips" style="margin-top:16px"><span class="chip">TA, Web Programming</span></div>
+</div></div>
+
+<div class="wrap" id="c-telegram" style="width:200px;height:116px"><div class="tile paper raised" style="padding:20px 20px">
+  <div class="label">Telegram</div><div class="grow"></div><div class="mono" style="font-size:15px;font-weight:800">@isAmirMmd</div>
+</div></div>
+<div class="wrap" id="c-channel" style="width:200px;height:116px"><div class="tile paper raised" style="padding:20px 20px">
+  <div class="label">Channel</div><div class="grow"></div><div class="mono" style="font-size:15px;font-weight:800">@nimByte</div>
+</div></div>
+<div class="wrap" id="c-instagram" style="width:200px;height:116px"><div class="tile paper raised" style="padding:20px 20px">
+  <div class="label">Instagram</div><div class="grow"></div><div class="mono" style="font-size:15px;font-weight:800">@nimbyte.ir</div>
+</div></div>
+<div class="wrap" id="c-linkedin" style="width:200px;height:116px"><div class="tile paper raised" style="padding:20px 20px">
+  <div class="label">LinkedIn</div><div class="grow"></div><div class="mono" style="font-size:15px;font-weight:800">in/isamirmmd</div>
+</div></div>
+<div class="wrap" id="c-email" style="width:200px;height:116px"><div class="tile paper raised" style="padding:20px 20px">
+  <div class="label">Email</div><div class="grow"></div><div class="mono" style="font-size:12.5px;font-weight:800">amirfanweb@gmail.com</div>
+</div></div>
+
+</body>
+</html>
