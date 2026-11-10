@@ -47,6 +47,13 @@ h3 { font-size: 19px; line-height: 1.35; font-weight: 700; }
 .coral .arrow { background: rgba(32, 33, 31, .12); }
 .raised { box-shadow: 0 1px 2px rgba(32, 33, 31, .05), 0 3px 6px rgba(32, 33, 31, .05); }
 .shot { width: 100%; aspect-ratio: 1200 / 560; object-fit: cover; object-position: center; border-radius: 16px; display: block; }
+.num { font-size: 34px; font-weight: 900; line-height: 1.2; letter-spacing: -.5px; }
+.unit { font-size: 16px; font-weight: 700; color: var(--muted); letter-spacing: 0; }
+.heat { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 13px); gap: 4px; justify-content: space-between; direction: ltr; }
+.heat b, .legend b { width: 13px; height: 13px; border-radius: 3px; display: inline-block; }
+.legend { display: flex; align-items: center; gap: 4px; font-size: 13px; }
+.l0 { background: var(--sand); } .l1 { background: var(--coral-soft); } .l2 { background: #fca394; }
+.l3 { background: var(--coral); } .l4 { background: var(--coral-ink); }
 </style>
 </head>
 <body>
@@ -152,6 +159,32 @@ h3 { font-size: 19px; line-height: 1.35; font-weight: 700; }
 </div></div>
 <div class="wrap" id="c-email" style="width:270px;height:116px"><div class="tile paper raised" style="padding:20px 20px">
   <div class="label">Email</div><div class="grow"></div><div class="mono" style="font-size:13px;font-weight:800">amirmmd.lotfipour@gmail.com</div>
+</div></div>
+
+<!-- Stats: filled by build.mjs from src/stats.json (bento/stats.mjs, run by the stats workflow). -->
+<div class="wrap" id="s-total" style="width:250px;height:150px"><div class="tile paper" style="padding:20px 22px">
+  <div class="label">Contributions</div><div class="grow"></div>
+  <div class="num" data-stat="total">0</div><p class="small" data-stat="since"></p>
+</div></div>
+<div class="wrap" id="s-current" style="width:250px;height:150px"><div class="tile coral-soft" style="padding:20px 22px">
+  <div class="label" style="color:var(--coral-ink)"><i></i>Current streak</div><div class="grow"></div>
+  <div class="num"><span data-stat="current">0</span> <span class="unit">days</span></div><p class="small" data-stat="currentRange"></p>
+</div></div>
+<div class="wrap" id="s-longest" style="width:250px;height:150px"><div class="tile sand" style="padding:20px 22px">
+  <div class="label">Longest streak</div><div class="grow"></div>
+  <div class="num"><span data-stat="longest">0</span> <span class="unit">days</span></div><p class="small" data-stat="longestRange"></p>
+</div></div>
+<div class="wrap" id="s-views" style="width:250px;height:150px"><div class="tile blue" style="padding:20px 22px">
+  <div class="label">Profile views</div><div class="grow"></div>
+  <div class="num" data-stat="views">0</div><p class="small">since the counter began</p>
+</div></div>
+<div class="wrap" id="s-year" style="width:1000px;height:200px"><div class="tile paper">
+  <div class="row" style="justify-content:space-between;align-items:center">
+    <div class="label"><i></i>The last year on GitHub</div>
+    <div class="legend small">less <b class="l0"></b><b class="l1"></b><b class="l2"></b><b class="l3"></b><b class="l4"></b> more</div>
+  </div>
+  <div class="grow"></div>
+  <div class="heat" data-stat="heat"></div>
 </div></div>
 
 </body>
