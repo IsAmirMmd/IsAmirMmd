@@ -54,6 +54,12 @@ h3 { font-size: 19px; line-height: 1.35; font-weight: 700; }
 .legend { display: flex; align-items: center; gap: 4px; font-size: 13px; }
 .l0 { background: var(--sand); } .l1 { background: var(--coral-soft); } .l2 { background: #fca394; }
 .l3 { background: var(--coral); } .l4 { background: var(--coral-ink); }
+.music { display: flex; gap: 18px; align-items: center; margin-top: 16px; }
+.cover { width: 92px; height: 92px; border-radius: 14px; object-fit: cover; flex: none; }
+.m-src { position: absolute; top: 24px; right: 26px; font-family: JBM, monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; opacity: .6; }
+.m-bar { flex: none; height: 6px; border-radius: 6px; background: rgba(244, 239, 231, .16); margin-top: 16px; overflow: hidden; }
+.m-bar i { display: block; width: 38%; height: 100%; background: var(--coral); }
+.m-time { display: flex; justify-content: space-between; font-family: JBM, monospace; font-size: 12px; margin-top: 6px; opacity: .7; }
 </style>
 </head>
 <body>
@@ -143,6 +149,16 @@ h3 { font-size: 19px; line-height: 1.35; font-weight: 700; }
   <h3>B.Sc. Computer Engineering</h3>
   <p class="small" style="margin-top:4px">Babol Noshirvani University of Technology, since 2022</p>
   <div class="chips" style="margin-top:16px"><span class="chip">TA, Web Programming</span></div>
+</div></div>
+
+<div class="wrap" id="music" style="width:1000px;height:236px"><div class="tile ink">
+  <div class="m-src">Spotify</div>
+  <div class="label"><i></i>On repeat</div>
+  <div class="music"><img class="cover" src="src/currents.jpg" alt="">
+    <div><h2>Let It Happen</h2><p class="small">Tame Impala · Currents</p></div></div>
+  <div class="grow"></div>
+  <div class="m-bar"><i></i></div>
+  <div class="m-time"><span>2:57</span><span>7:47</span></div>
 </div></div>
 
 <div class="wrap" id="c-telegram" style="width:180px;height:116px"><div class="tile paper raised" style="padding:20px 20px">

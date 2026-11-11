@@ -20,9 +20,11 @@ if (existsSync(statsFile)) await page.evaluate(fillStats, JSON.parse(readFileSyn
 for (const id of await page.$$eval(".wrap", (els) => els.map((e) => e.id))) {
   await page.locator(`#${id}`).screenshot({ path: `${out}/${id}.png`, omitBackground: true });
 }
-// GitHub's dark theme: the ink tile gets a faint edge so it doesn't sink into the page.
-await page.evaluate(() => document.querySelector("#now .tile").classList.add("dark"));
-await page.locator("#now").screenshot({ path: `${out}/now-dark.png`, omitBackground: true });
+// GitHub's dark theme: the ink tiles get a faint edge so they don't sink into the page.
+for (const id of ["now", "music"]) {
+  await page.evaluate((i) => document.querySelector(`#${i} .tile`).classList.add("dark"), id);
+  await page.locator(`#${id}`).screenshot({ path: `${out}/${id}-dark.png`, omitBackground: true });
+}
 await browser.close();
 
 // Runs in the page: writes the numbers into [data-stat] and draws the year's squares.
